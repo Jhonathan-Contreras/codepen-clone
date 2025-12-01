@@ -1,0 +1,152 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0d0d0d;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background: linear-gradient(to bottom, #1e1f26, #111);
+}
+
+/* HERO SECTION */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 160px;   /* tamaño perfecto para ese logo */
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+  white-space: nowrap;  /* evita que se rompan o achiquen */
+}
+
+nav ul li {
+  font-size: 16px;   /* tamaño uniforme */
+  color: white;
+}
+
+/* HERO IMAGE */
+.hero-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 90%;
+  max-width: 540px;
+  opacity: 0.22;
+  transform: translateY(-20px); /* sube la imagen */
+}
+
+/* LEFT SIDE */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #ccc;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.hero-text {
+  max-width: 520px;
+}
+
+.hero-text button {
+  background-color: #47cf73;
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn.learn {
+  background-color: #2c2c2c;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+/* RIGHT SIDE */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* BUTTONS */
+.btn {
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn.create {
+  background-color: #444857;
+  color: white;
+}
+
+.btn.dark {
+  background-color: #2c303a;
+  color: white;
+}
+
+.btn.green {
+  background-color: #47cf73;
+  color: black;
+  font-weight: bold;
+}
