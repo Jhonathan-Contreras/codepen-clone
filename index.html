@@ -1,61 +1,76 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CodePen Clone</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodePen Clone</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <!-- NAVBAR -->
-  <header class="navbar">
-    <div class="navbar-left">
-      <div class="logo">
-        <img src="logo-codepen.png" alt="CodePen Logo">
-      </div>
+    <header class="navbar">
+        <div class="navbar-left">
+             <div class="logo">
+                 <img src="logo-codepen.png" alt="CodePen Logo">
+             </div>
 
-      <nav>
-        <ul>
-          <li>Pens</li>
-          <li>Projects</li>
-          <li>Posts</li>
-          <li>Collections</li>
-          <li>Spark ▼</li>
-        </ul>
-      </nav>
-    </div>
+             <div class="nav-block">
+                 <div class="explore-label">EXPLORE</div>
 
-    <div class="navbar-right">
-      <button class="btn create">Create ▼</button>
-      <span class="search">🔍</span>
-      <button class="btn dark">Log In</button>
-      <button class="btn green">Sign Up</button>
-    </div>
-  </header>
+                <ul class="nav-links">
+                    <li>Pens</li>
+                    <li>Projects</li>
+                    <li>Posts</li>
+                    <li>Collections</li>
+                    <li class="spark-item">Spark <span class="arrow-spark"></span></li>
+                </ul>
+             </div>
+        </div>
 
-  <!-- HERO SECTION -->
-  <main class="hero">
-    <!-- Left column -->
-    <section class="hero-text">
-  <h1>The best place to build, test, and discover front-end code.</h1>
+        <div class="right-nav">
+            <button class="btn create">Create <span class="arrow-green"></span></button>
+            <span class="search"></span>
+            <button class="btn login">Log In</button>
+            <button class="btn signup">Sign Up</button>
+        </div>
+    </header>
 
-  <p>
-    CodePen is a social development environment for front-end designers and developers.
-    Build and deploy a website, show off your work, build test cases, and find inspiration.
-  </p>
+    <main class="hero">
 
-  <div class="hero-buttons">
-    <button class="btn green">Sign Up for Free</button>
-    <button class="btn learn">Learn More</button>
-  </div>
-</section>
+        <section class="hero-text">
+           <h1>
+               CodePen is a <strong>social development<br>environment</strong> 
+               for front-end designers<br>and developers. 👋
+           </h1>
 
-    <!-- Right column -->
-    <section class="hero-image">
-      <img src="hero-image.png" alt="CodePen Example">
-    </section>
-  </main>
+           <p class="hero-paragraph">
+              It’s the best place to build and deploy a<br>
+              website, show off your work, build test cases,<br>
+              and find inspiration.
+           </p>
+
+            <div class="buttons">
+                <button class="btn big green">Sign Up for Free</button>
+                <button class="btn big dark">Learn More</button>
+            </div>
+        </section>
+
+        <section class="hero-image">
+           <div class="projects-title">
+               This is <span>CodePen Projects!</span>
+           </div>
+
+           <img src="hero-image.png" alt="Editor Screenshot">
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div>CodePen for <span>TEAMS</span></div>
+        <div>CodePen for <span>EDUCATION</span></div>
+        <div>CodePen for <span>PRIVACY</span></div>
+        <div>CodePen for <span>WRITING</span></div>
+    </footer>
 
 </body>
 </html>
